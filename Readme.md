@@ -28,5 +28,5 @@ This project provides:
 ## API endpoints
 | HTTP Method  | Route | Body | Query Params | Description | Sample Response | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| POST  | /bulk  | csvFile = <fileToBeuploaded> | None | Used to handle the CSV data upload | {"msg": "user created","data": "data loaded in the DB"}
-| GET  | customer/analytics | None | from = <fromDate>, to = <toDate> | Used to get analytics | {"total_customers": 1200,"total_orders": 1200,"average_order_value": 120}
+| POST  | /bulk  | csvFile = fileToBeuploaded | None | Used to handle the CSV data upload | {"msg": "user created","data": "data loaded in the DB"}
+| GET  | customer/analytics | None | from = fromDate, to = toDate | Used to get analytics | {"total_customers": 1200,"total_orders": 1200,"average_order_value": 120}
